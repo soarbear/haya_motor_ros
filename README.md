@@ -1,4 +1,4 @@
-# hayate_motor_ros
+# haya_motor_ros
 
 Using 9axis-imu haya_imu in this project to evaluate whether the A/B phase pulses of the encoder, which is the basis for calculating the rotation speed of motor output shaft, are correctly measured or not, and to evaluate the accuracy and accuracy of DC motor PID control.
 
