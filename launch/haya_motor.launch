@@ -1,0 +1,13 @@
+<launch>
+   <node pkg="rosserial_python" name="arduino_haya_motor" type="serial_node.py" output="screen">
+      <param name="port" type="str" value="/dev/ttyACM0"/>
+      <param name="baud" type="int" value="1200000"/>
+   </node>
+   <node pkg="haya_motor_ros" name="haya_motor_node" type="haya_motor_node.py" output="screen">
+      <param name="Kp" type="double" value="0.20" /> 
+      <param name="Ki" type="double" value="0.30" /> 
+      <param name="Kd" type="double" value="0.01" /> 
+      <param name="target_velocity" type="double" value="80.00" />
+   </node>
+   <node pkg="rqt_plot" type="rqt_plot" name="rqt_plot" output="screen" args="/haya_angular_velocity_z /pid_params/target_velocity /arduino_msg/current_velocity"/>
+</launch>
