@@ -18,6 +18,7 @@ arduino_node(ino) on Leonardo with Arduino IDE
 # Launch
 
 roslaunch haya_imu_ros haya_imu.launch
+
 roslaunch haya_motor_ros haya_motor.launch
 
 # Evaluation environment
