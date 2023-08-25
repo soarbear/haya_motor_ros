@@ -8,7 +8,7 @@ DC brush motor, Magnetic encoder, Arduino Leonardo, Adafruit Motor Shield v1.2 c
 
 # Required ROS packages or LIBs
 
-rosserial, haya_motor_ros, hayate_imu_ros, ros_lib by rosserail_arduino with Arduino IDE, Adafruit-Motor-Shield-library(modified, Timer3A/D5-pin/PWM frequency changed to 4KHz), arduino_node(ino) on Leonardo with Arduino IDE
+rosserial, haya_motor_ros, haya_imu_ros, ros_lib by rosserail_arduino with Arduino IDE, Adafruit-Motor-Shield-library(modified, Timer3A/D5-pin/PWM frequency changed to 4KHz), arduino_node(ino) on Leonardo with Arduino IDE
 
 # ROS node interaction status
 
